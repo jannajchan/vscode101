@@ -2,24 +2,24 @@
 About Visual Studio Code
 
 # setup Git
-git --version
-git config --global user.name "name"
-git config --global user.email "email"
+git --version<br>
+git config --global user.name "name"<br>
+git config --global user.email "email"<br>
 git config --list
 
 # using Git in VS Code
-git init
-git add .
-git commit -m "commit message"
-git remote add origin {repository url}
+git init<br>
+git add .<br>
+git commit -m "commit message"<br>
+git remote add origin {repository url}<br>
 git push -u origin master
 
 # fixed merge conflicts
-git pull origin main --rebase
-git add .
-git commit -m "Fixed merge conflicts"
+git pull origin main --rebase<br>
+git add .<br>
+git commit -m "Fixed merge conflicts"<br>
 git push origin main
 
 # reset the local changes to match the remote
-git reset --hard origin/main
+git reset --hard origin/main<br>
 git push origin main
