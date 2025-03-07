@@ -1,2 +1,2 @@
 # vscode101
-About Visual Studio Code
+Getting start with Code Editor "Visual Studio Code"
