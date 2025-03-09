@@ -20,6 +20,11 @@ git add .<br>
 git commit -m "Fixed merge conflicts"<br>
 git push origin main
 
+# remove old remote origin & set new remote repository
+git remote remove origin<br>
+git remote add origin {repository url} | git remote set-url origin {repository url}<br>
+git remote -v
+
 # reset the local changes to match the remote
 git reset --hard origin/main<br>
 git push origin main
